@@ -158,6 +158,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.nubia_sdm845
 
+# FM
+PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0-impl \
+    android.hardware.broadcastradio@1.0-service \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
